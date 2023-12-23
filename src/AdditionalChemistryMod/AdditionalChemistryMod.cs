@@ -3,7 +3,7 @@ using Mafi.Base;
 using Mafi.Core;
 using Mafi.Core.Mods;
 
-namespace AdditinalChemistryMod
+namespace AdditionalChemistryMod
 {
     public sealed class AdditionalChemistryMod : DataOnlyMod
     {

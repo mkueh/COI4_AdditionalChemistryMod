@@ -4,7 +4,7 @@ using Mafi.Core.Entities.Animations;
 using Mafi.Core.Entities.Static.Layout;
 using Mafi.Core.Mods;
 
-namespace AdditinalChemistryMod;
+namespace AdditionalChemistryMod;
 
 internal class AdditionalChemistryData : IModData
 {
@@ -15,7 +15,7 @@ internal class AdditionalChemistryData : IModData
         // Example of a new recipe.
         registrator.RecipeProtoBuilder
             .Start(name: "Air Caption",
-                recipeId: AdditinalChemistryModIds.Recipes.CO2Capturing,
+                recipeId: AdditionalChemistryModIds.Recipes.CO2Capturing,
                 machineId: Ids.Machines.AirSeparator)
             .SetDuration(60.Seconds())
             .AddOutput(72, Ids.Products.CarbonDioxide)

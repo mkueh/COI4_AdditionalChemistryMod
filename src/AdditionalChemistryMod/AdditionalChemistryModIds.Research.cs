@@ -2,9 +2,9 @@
 using Mafi.Core.Research;
 using ResNodeID = Mafi.Core.Research.ResearchNodeProto.ID;
 
-namespace AdditinalChemistryMod;
+namespace AdditionalChemistryMod;
 
-public partial class AdditinalChemistryModIds
+public partial class AdditionalChemistryModIds
 {
 
     public partial class Research

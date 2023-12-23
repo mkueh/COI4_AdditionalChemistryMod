@@ -1,9 +1,9 @@
 ﻿using Mafi.Base;
 using RecipeID = Mafi.Core.Factory.Recipes.RecipeProto.ID;
 
-namespace AdditinalChemistryMod;
+namespace AdditionalChemistryMod;
 
-public partial class AdditinalChemistryModIds
+public partial class AdditionalChemistryModIds
 {
 
     public partial class Recipes

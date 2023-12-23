@@ -3,19 +3,19 @@ using Mafi.Base;
 using Mafi.Core.Mods;
 using Mafi.Core.Research;
 
-namespace AdditinalChemistryMod;
+namespace AdditionalChemistryMod;
 
-internal class AdditinalChemistryModResearchData : IResearchNodesData
+internal class AdditionalChemistryModResearchData : IResearchNodesData
 {
 
     public void RegisterData(ProtoRegistrator registrator)
     {
 
         ResearchNodeProto nodeProto = registrator.ResearchNodeProtoBuilder
-            .Start("Unlock MyMod stuff!", AdditinalChemistryModIds.Research.UnlockCO2Capturing)
-            .Description("This unlocks all the awesome stuff in AdditinalChemistryMod!")
+            .Start("Unlock MyMod stuff!", AdditionalChemistryModIds.Research.UnlockCO2Capturing)
+            .Description("This unlocks all the awesome stuff in AdditionalChemistryMod!")
             .SetCosts(new ResearchCostsTpl(4))
-            .AddRecipeToUnlock(AdditinalChemistryModIds.Recipes.CO2Capturing)
+            .AddRecipeToUnlock(AdditionalChemistryModIds.Recipes.CO2Capturing)
             .BuildAndAdd();
 
         nodeProto.GridPosition = new Vector2i(96, 16);
